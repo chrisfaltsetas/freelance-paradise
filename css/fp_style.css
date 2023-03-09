@@ -1,0 +1,398 @@
+/* Override from Bootstrap */
+.container {
+    overflow: hidden;
+}
+
+.navbar-default .navbar-brand {
+    color: #444;
+    font-size: 1.5em;
+}
+
+.navbar-default .navbar-nav li a {
+    color: #444;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-nav li a:hover {
+    color: #eee;
+}
+
+.navbar-default .navbar-collapse {
+    border-color: #444;
+    border-top-width: 0.5em;
+}
+
+.btn {
+    margin-top: 1em;
+    font-size: 1.2em;
+    padding: 0.5em 1em;
+}
+
+.form-group {
+    padding-bottom: 1em;
+}
+
+.checkbox {
+    margin-left: 1em;
+    margin-right: 1.5em;
+}
+
+
+/* Global */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+textarea {
+    resize: none;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.bullets li {
+    list-style-type: disc;
+}
+
+.big-line-height {
+    line-height: 2em;
+}
+
+.theme-color {
+    background-color: #8dd3cf;
+    color: #444;
+}
+
+.theme-color-dark {
+    background-color: #008B8B;
+    color: #eee;
+}
+
+.pretty-border {
+    border: 1px;
+    border-radius: 4px;
+}
+
+.bottom-margin {
+    margin-bottom: 30px;
+}
+
+.full-size {
+    width: 100%;
+}
+
+.container-narrow {
+    width: 60%;
+}
+
+.my-navbar {
+    color: #444;
+    border: none;
+    padding: 0.2em 0;
+}
+
+.my-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-style: italic;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 0.1em;    
+}
+
+.narrow-form-1 {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.narrow-form-2 {
+    padding-left: 20%;
+    padding-right: 20%;    
+}
+
+.text-light {
+    color: #eee;
+}
+
+.text-dark {
+    color: #444;
+}
+
+.text-aqua {
+    color: aqua;
+}
+
+a.text-aqua:hover {
+    color: #eee;
+}
+
+form label {
+    margin-left: 3px;
+}
+
+.user-type-label {
+    margin-left: 17px;
+}
+
+.user-type {
+    margin-left: 0.4em;
+    margin-bottom: 1em;
+    display: inline-block;
+    width: auto;
+}
+
+
+/* Placeholder Italic */
+::-webkit-input-placeholder {
+    font-style: italic;
+ }
+ :-moz-placeholder {
+    font-style: italic;  
+ }
+ ::-moz-placeholder {
+    font-style: italic;  
+ }
+ :-ms-input-placeholder {  
+    font-style: italic; 
+ }
+
+/* My Buttons */
+.btn-together {
+    margin-left: 1em;
+}
+
+.btn-fp {
+    color: #eee;
+    background-color: #8dd3cf;
+    border-color: #75b5b1;
+}
+
+.btn-fp:hover {
+    color: #eee;
+    background-color: #75b5b1;
+    border-color: #679d99;
+}
+
+.btn-sign-up {
+    margin-left: 1em;
+    font-size: 1em;
+    margin-top: -1em;
+}
+
+.btn-clear {
+    margin-left: 0.5em;
+    font-size: 1em;
+    margin-top: -1em;
+}
+
+.btn-white {
+    color: #444;
+    background-color: #eee;
+    border-color: #e0e0e0;
+    margin-bottom: 2em;
+    font-size: 1em;
+}
+
+.btn-white:hover {
+    color: #444;
+    background-color: #e0e0e0;
+    border-color: #d6d6d6;
+}
+
+.btn-save {
+    /*margin-left: 3em;*/
+    margin-top: 0;
+}
+
+.btn-undo {
+    margin-left: 1em;
+    margin-top: 0;
+}
+
+.btn-new-clear {
+    margin-left: 1em;
+}
+
+.btn-send {
+    float: right;
+    margin-top: 2em;
+}
+
+
+/* Welcome */
+#welcome {
+    background-image: url(../images/fp-images/banner1_ext.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    background-color: #eee;
+    margin-top: 50px;
+    padding-top: 2em;
+    padding-bottom: 4em;
+    padding-left: 2em;
+}
+
+/* How it works */
+#how-it-works {
+	background-image: url(../images/fp-images/question-mark.png);
+	background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 180px;
+    background-color: #444;
+    margin: 50px auto;
+    padding-top: 2em;
+    padding-bottom: 3em;
+    padding-right: 2em;
+    color: #eee;
+    text-align: right;
+}
+
+.extra-bottom-margin {
+    margin-bottom: 5em;
+}
+
+/* F.A.Q. */
+#faq {
+    color: #444;
+    padding-top: 2em;
+    padding-bottom: 3em;
+    padding-left: 2em;
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 90px;
+}
+
+/* Dashboard */
+.project-view {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2em;
+    margin-right: 5em;
+    margin-left: 5em;
+    margin-top: 3em;
+    margin-bottom: 5em;
+}
+
+.project-view > div {
+    background-color:#eee;
+    color: #444;
+    padding:1em;
+    border: 1px;
+    border-radius: 4px;
+}
+
+.project-edit {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-column-gap: 3em;
+    margin: 0em 3em;
+}
+
+.message {
+    margin-top: 1em;
+}
+
+/* Media queries */
+@media(max-width:1199px) {
+    #welcome {
+        background-image: none;
+        background-color: #8dd3cf;
+    }
+}
+
+@media(max-width:991px) {
+    #how-it-works {
+        background-image: none;
+    }
+}
+
+@media(max-width:767px) {
+
+    .navbar-default {
+        margin: 0;
+        border-bottom: 0.5em solid #444;
+    }
+    
+    .navbar-brand {
+        margin-left: 1em;
+    }
+    
+    .nav li a {
+        padding-left: 2.5em;
+    }
+
+    #welcome, #how-it-works, #faq {
+        margin: 0;
+        border: 0;
+        border-radius: 0;
+        padding-right: 2em;
+        padding-left: 2em;
+    }
+
+    h1, h3 {
+        text-align: center;
+        line-height: 1.2em;
+    }
+
+    .my-footer {
+        border-top: 0.5em solid #444;
+    }
+
+    .btn {
+        display: flex;
+        justify-content: center;
+    }
+
+    .btn-together {
+        margin-left: 0;
+    }
+
+    .btn-sign-up, .btn-clear, .btn-white {
+        display: block;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .btn-log-in {
+        margin-top: 2em;
+    }
+
+    .user-type-label {
+        margin-left: 3px;
+    }
+
+    .user-type {
+        display: block;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .narrow-form-2 {
+        padding-left: 18%;
+        padding-right: 18%;
+    }
+
+    .checkbox {
+        margin-left: 0;
+        margin-right: 1.5em;
+    }
+
+    .project-view, .project-edit {
+        display: block;
+    }
+
+    .project-view > div {
+        margin-bottom: 2em;
+    }
+
+    .btn-send {
+        margin-bottom: 6em;
+    }
+}
